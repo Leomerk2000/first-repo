@@ -13,15 +13,15 @@ const direccion = {
 };
 
 //Variable colores favoritos
-coloresFavoritos = ['Blue','Darkblue','ligthgray','green'];
+let coloresFavoritos = ['Blue','Darkblue','ligthgray','green'];
 //Variable lenguajes favoritos
-lenguajesFavoritos = ['Java','PHP','python'];
+let lenguajesFavoritos = ['Java','PHP','python'];
 //Variable mejor lenguaje con la primera posición del array lenguajes favoritos
-mejorLenguaje = lenguajesFavoritos[0];
+let mejorLenguaje = lenguajesFavoritos[0];
 //Variable peor lenguaje con la ultima posición del array lenguajes favoritos
-peorLenguaje = lenguajesFavoritos[2];
+//let peorLenguaje = lenguajesFavoritos[2];
 //Una forma más optima de mostrarlo en caso de que el array sea muy grande es:
-peorLenguaje = lenguajesFavoritos[lenguajesFavoritos.length - 1];
+let peorLenguaje = lenguajesFavoritos[lenguajesFavoritos.length - 1];
 
 
 //Ejercicio 3. Variables declaradas, Operaciones matemáticas y resultado por consola. ✔
